@@ -8,8 +8,6 @@ import json
 
 url = "https://auddagiri.atlassian.net/rest/api/3/issue"
 
-#authentication = HTTPBasicAuth("auddagiri@loyaltymethods.com","<ATATT3xFfGF0BN_wDNxqtO3yAAn8KBGY_4sdJMDfCqK6ldHjUdQS0wf0lpH86hEHk65hBXPyTc27yvRNC54HeLvf5CFacvzQ1QkyDbhM9okZUnQRzU9gQm5wJ41sejkly8FZHajio3KmN0D1noZYetMxzGKJlLOvOWUWkivzXZ_BDhknz7vUCcQ=C4219214>")
-
 headers = {
     "Accept":"application/json",
     "Content-Type":"application/json"
@@ -24,7 +22,7 @@ response = requests.request(
     url,
     headers=headers,
     params=query,
-    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF0BN_wDNxqtO3yAAn8KBGY_4sdJMDfCqK6ldHjUdQS0wf0lpH86hEHk65hBXPyTc27yvRNC54HeLvf5CFacvzQ1QkyDbhM9okZUnQRzU9gQm5wJ41sejkly8FZHajio3KmN0D1noZYetMxzGKJlLOvOWUWkivzXZ_BDhknz7vUCcQ=C4219214")
+    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF04Y9fwg4AO4gH-BocNbwp7CYy-hIEZj5kDTbAf8zpPhKI05M2l7BjVesbkOkS1khtjdk0EHYANihECKEMReuGEGeMIhgmWe-52iOdu48BWig5guDT7k8fXbnPfMBtWTc2fUfKKTpJ8TOO2Y9mSCf6iLQjWT5S38g8u2ctdND7yz0=6FDE7C09")
     )
 
 print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",",": ")))
@@ -53,7 +51,7 @@ response = requests.request(
     url,
     headers=headers,
     params=query,
-    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF0BN_wDNxqtO3yAAn8KBGY_4sdJMDfCqK6ldHjUdQS0wf0lpH86hEHk65hBXPyTc27yvRNC54HeLvf5CFacvzQ1QkyDbhM9okZUnQRzU9gQm5wJ41sejkly8FZHajio3KmN0D1noZYetMxzGKJlLOvOWUWkivzXZ_BDhknz7vUCcQ=C4219214")
+    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF04Y9fwg4AO4gH-BocNbwp7CYy-hIEZj5kDTbAf8zpPhKI05M2l7BjVesbkOkS1khtjdk0EHYANihECKEMReuGEGeMIhgmWe-52iOdu48BWig5guDT7k8fXbnPfMBtWTc2fUfKKTpJ8TOO2Y9mSCf6iLQjWT5S38g8u2ctdND7yz0=6FDE7C09")
     )
 
 print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",",": ")))
@@ -85,7 +83,7 @@ response = requests.request(
     url,
     data=payload,
     headers=headers,
-    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF0BN_wDNxqtO3yAAn8KBGY_4sdJMDfCqK6ldHjUdQS0wf0lpH86hEHk65hBXPyTc27yvRNC54HeLvf5CFacvzQ1QkyDbhM9okZUnQRzU9gQm5wJ41sejkly8FZHajio3KmN0D1noZYetMxzGKJlLOvOWUWkivzXZ_BDhknz7vUCcQ=C4219214")
+    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF04Y9fwg4AO4gH-BocNbwp7CYy-hIEZj5kDTbAf8zpPhKI05M2l7BjVesbkOkS1khtjdk0EHYANihECKEMReuGEGeMIhgmWe-52iOdu48BWig5guDT7k8fXbnPfMBtWTc2fUfKKTpJ8TOO2Y9mSCf6iLQjWT5S38g8u2ctdND7yz0=6FDE7C09")
     )
 
 response.raise_for_status()
@@ -122,7 +120,7 @@ response = requests.request(
     url,
     data=payload,
     headers=headers,
-    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF0BN_wDNxqtO3yAAn8KBGY_4sdJMDfCqK6ldHjUdQS0wf0lpH86hEHk65hBXPyTc27yvRNC54HeLvf5CFacvzQ1QkyDbhM9okZUnQRzU9gQm5wJ41sejkly8FZHajio3KmN0D1noZYetMxzGKJlLOvOWUWkivzXZ_BDhknz7vUCcQ=C4219214")
+    auth=("auddagiri@loyaltymethods.com","ATATT3xFfGF04Y9fwg4AO4gH-BocNbwp7CYy-hIEZj5kDTbAf8zpPhKI05M2l7BjVesbkOkS1khtjdk0EHYANihECKEMReuGEGeMIhgmWe-52iOdu48BWig5guDT7k8fXbnPfMBtWTc2fUfKKTpJ8TOO2Y9mSCf6iLQjWT5S38g8u2ctdND7yz0=6FDE7C09")
     )
 
 #print(response.text)
