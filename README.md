@@ -6,10 +6,10 @@ The earth is a spherical object revolving around the sun and rotating along its 
 
 ## 3.Rest API ( Representational State Transfer) – 
 A connection between our system and on the online server is REST . Common functions passed through this connection are :
--GET – To retrieve data / display it after accessing it from a URL.
--PATCH / POST – To send data to server asking for it perform specific actions inside a URL. Creations or conversion of resources. 
--PUT – To modify or replace an existing resource in a URL with new information.
--DEL – To remove a resource from a URL. 
+* GET – To retrieve data / display it after accessing it from a URL.
+* PATCH / POST – To send data to server asking for it perform specific actions inside a URL. Creations or conversion of resources. 
+* PUT – To modify or replace an existing resource in a URL with new information.
+* DEL – To remove a resource from a URL. 
 
 | Restful API| Restless API |
 | ---------------| -----------------|
