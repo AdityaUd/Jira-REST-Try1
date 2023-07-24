@@ -6,7 +6,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 
-url = "https://auddagiri.atlassian.net/rest/api/3/issue"
+url = "https://auddagiri.atlassian.net/rest/api/3/issue/createmeta"
 
 headers = {
     "Accept":"application/json",
